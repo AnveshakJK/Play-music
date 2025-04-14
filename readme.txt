@@ -1,3 +1,6 @@
+Just using remote files as locally to access song using this to play songs, further providing cover image and description in json format show it playlist. 
+
+There some mistake and learning that i do for this. 
  why height doesn't work with percentages (%) in some situations
   If the height of the parent element (the containing block) is auto or undefined, there’s no reference for the percentage, so the browser cannot apply the percentage value.
 
@@ -66,7 +69,3 @@
 -->) The stored (custom) data can then be used in the page's JavaScript to create a more engaging user experience (without any Ajax calls or server-side database queries).
 
 -->) in getsongs function return audio is help for default play of first song when album is clicked . this also resolve of problem of not show error in next and previous button that indexOf is not defined.
-
-
--->) there is doing a mute volume button 
-  -> 
