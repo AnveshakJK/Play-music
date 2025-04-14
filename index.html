@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play_Music</title>
+    <link rel="icon" href="./img/music-logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/util.css">
+</head>
+
+<body>
+
+    <div class="main-nav flex">
+
+        <div class="hamburger_spot_svg">
+            <div class="hamburger_menu">
+                <img src="./img/burger-menu.svg" alt="hamburger menu svg">
+            </div>
+
+            <div class="main-music-logo">
+                <img class="hei-4 box-shadow " src="./img/music-logo.jpg" alt="main music logo">
+            </div>
+        </div>
+
+        <div class="home-svg flex" style="margin: 5px 0px 3px 0px">
+            <div><a href="/"><img class=" invert home-svg-img" src="./img/home.svg" alt="home-svg"></a></div>
+            <div class="search-svg text-color">
+                <div><img class="height invert" src="./img/search.svg" alt="search-svg"></div>
+                <div><input type="text" class="home-svg-input" placeholder="What do you want to play?"></div>
+            </div>
+        </div>
+        <div class="flex m-right ">
+            <button class=" sign-up text-decoration text-color">Sign up</button>
+            <button class="log-in text-decoration ">Log in</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="left-side">
+
+            <div class="your-library-svg flex align-items">
+                <img class="height invert" src="./img/your-library.svg" alt="your-library.svg">
+                <h2 class="text-decoration text-color" style="font-size: 2vw">Your Library</h2>
+                <img class="cross_close_svg" src="./img/cross-close.svg" alt="cross-close-svg">
+            </div>
+
+
+            <div class="song-list">
+                <ul>
+                    <!-- <li>song list</li>
+                    <li>
+                        <img src="./img/music-svg.svg" alt="svg for music">
+                        <div class="song-list-info">
+                            <div>song name </div>
+                            <div>song artist</div>
+                        </div>
+                        <div class="play-now-song-list">
+                            <img class="invert" src="./img/play button.png" alt="play button">
+                            <div>play now</div>
+                        </div>
+                    </li> -->
+
+
+                </ul>
+            </div>
+
+            <div class="footer-left-side flex flex-wrap">
+
+
+                <div>
+                    <a class="text-decoration padding-10 text-color" href="/">
+                        <span>Legal</span> </a>
+                </div>
+                <div>
+                    <a class="text-decoration padding-10 text-color" href="/">
+                        <span>Safety &amp; Privacy Center</span> </a>
+                </div>
+                <div>
+                    <a class="text-decoration padding-10 text-color" href="/">
+                        <span>Privacy Policy</span> </a>
+                </div>
+                <div>
+                    <a class="text-decoration padding-10 text-color" href="/">
+                        <span>Cookies</span> </a>
+                </div>
+                <div>
+                    <a class="text-decoration padding-10 text-color" href="/">
+                        <span>About Ads</span> </a>
+                </div>
+                <div>
+                    <a class="text-decoration padding-10 text-color" href="/">
+                        <span>Accessibility</span> </a>
+                </div>
+                <div>
+                    <a class="text-decoration padding-10 white-color" href="/" target="_blank" rel="noopener">
+                        <span style="font-weight: bold">Cookies</span> </a>
+                </div>
+                <div>
+                    <a class="text-decoration padding-10 white-color"   >
+                        <span style="font-size:1vw"> Copy &copy 2025</span> </a>
+                </div>
+
+            </div>
+            
+
+        </div>
+        
+
+        <div class="right-side">
+            <div class="right-side-top"><a class="text-decoration white-color" href="/"><span>Popular Albums & Singles
+                    </span></a></div>
+            <div class="card-collection">
+              <!-- <div data-folder="ncs" class="card flex ">
+                    <img src="./img/png-3.png" alt="image"> -->
+                    <!-- <a class="text-decoration white-color" href="#"><span>Aashiqui 2</span></a> -->
+                    <!-- this not good pratice as currentTarget event it better perform it not want to use for singer to redirect it songs -->
+                    <!-- <span class="text-decoration white-color">Aashiqui 2</span>
+                    <span class="text-color font-size">singer Names</span>
+                    <div class="play-button"></div>
+                </div>  -->
+
+                <!-- <div data-folder="cs" class="card flex">
+                    <img src="./img/png-3.png" alt="image">
+                    <span class="text-decoration white-color">Aashiqui 2</span>
+                    <span class="text-color font-size">singer Names</span>
+                    <div class="play-button"></div>
+                </div> -->
+
+
+
+            </div>
+
+            <div class="play-songs-bar">
+                
+                    <div class="song_info ">
+                    </div>
+
+                    <div class="play-songs">
+                        <img id="previous_button" class="image-button" src="./img/previous-svgrepo-com.svg"
+                            alt="previous button svg">
+                        <img id="play_button" class="image-button unique " src="./img/play-svgrepo-com.svg"
+                            alt="play button png">
+                        <img id="next_button" class="image-button next-button" src="./img/next-svgrepo-com.svg"
+                            alt="next button png">
+                    </div>
+
+                    <div class="volume-audio">
+                        <img src="./img/volume-audio.svg" alt="volume-audio svg">
+                        <input type="range" name="volume-audio" class="volume-slider">
+                    </div>
+
+                    <div class="song-time "></div>
+
+                <div class="seek-bar-info">
+                    <div class="circle-seek-bar"></div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="./js/fscipt.js"></script>
+
+</body>
+
+</html>

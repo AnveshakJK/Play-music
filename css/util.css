@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display&display=swap');
+
+:root{
+    --font1 : "Montserrat", serif;
+    --container-bg-color:#1f1f1f;
+    --a : 0 ;
+}
+
+.text-color{
+    color: #b3b3b3;
+}
+
+.white-color{
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-justify{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.hei-4{
+    height: 4vw;
+}
+
+.height{
+    height: 2vw;
+}
+
+.font-size{
+    font-size: 1vw;
+}
+
+.text-decoration{
+    text-decoration: none;
+}
+
+ .m-left{
+    margin-left: 2vw;
+ }
+
+ .m-right{
+    margin-right: 2vw;
+ }
+
+.padding-10{
+    padding: 10px;
+}
+
+.border-radius{
+    border-radius: 1vw;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.box-shadow{
+  box-shadow: 0px 0px 8px 4px #84a096c2;
+}
+
